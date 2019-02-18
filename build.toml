@@ -18,7 +18,11 @@ type = 'lvBuildSpecAllTargets'
 project = '{cd}'
 build_spec = 'Engine Release'
 
-[package]
+[[package]]
 type = 'nipkg'
 payload_dir = 'Built'
 install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices'
+
+[[package]]
+type = 'zip'
+payload_dir = 'Source'
